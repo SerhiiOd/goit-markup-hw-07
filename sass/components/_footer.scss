@@ -13,7 +13,6 @@
 
 .flogo {
   display: block;
-  margin-bottom: 20px;
 
   .flogo__link {
     font-family: 'Raleway', sans-serif;
@@ -22,6 +21,9 @@
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
+
+    display: block;
+    margin-bottom: 20px;
   }
 
   .flogo__style {

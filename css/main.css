@@ -53,11 +53,11 @@
   color: var(--hover-focus-link-button);
 }
 
-.current {
+.site-nav__link--current {
   position: relative;
 }
 
-.current::after {
+.site-nav__link--current::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -68,12 +68,12 @@
   background-color: var(--hover-focus-link-button);
 }
 
-.current .current::after {
+.site-nav__link--current .site-nav__link--current::after {
   opacity: 1;
   color: var(--hover-focus-link-button);
 }
 
-.site-nav .current {
+.site-nav .site-nav__link--current {
   color: var(--hover-focus-link-button);
 }
 
@@ -396,7 +396,6 @@
 
 .flogo {
   display: block;
-  margin-bottom: 20px;
 }
 .flogo .flogo__link {
   font-family: "Raleway", sans-serif;
@@ -405,6 +404,8 @@
   font-size: 26px;
   line-height: 1.1923076923;
   letter-spacing: 0.03em;
+  display: block;
+  margin-bottom: 20px;
 }
 .flogo .flogo__style {
   color: var(--text-color-logo-foot);

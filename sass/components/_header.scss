@@ -55,11 +55,11 @@
   color: var(--hover-focus-link-button);
 }
 
-.current {
+.site-nav__link--current {
   position: relative;
 }
 
-.current::after {
+.site-nav__link--current::after {
   position: absolute;
   content: '';
   width: 100%;
@@ -70,12 +70,12 @@
   background-color: var(--hover-focus-link-button);
 }
 
-.current .current::after {
+.site-nav__link--current .site-nav__link--current::after {
   opacity: 1;
   color: var(--hover-focus-link-button);
 }
 
-.site-nav .current {
+.site-nav .site-nav__link--current {
   color: var(--hover-focus-link-button);
 }
 
